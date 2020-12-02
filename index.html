@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock App</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="https://kit.fontawesome.com/c939d0e917.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!-- timer section -->
+            <section class=" clock__section ">
+
+                <div class="hero">
+                    <div class="hero__icon">
+                        <img src="" alt="">
+                        <!-- ::before -->
+                    </div>
+                    <p>
+                        <span class="hero__text"></span>
+                    </p>
+
+                </div>
+                <div class="hero__timer">
+                    <p class="timer" id="hour"></p>
+                    <p class="timer">:</p>
+                    <p class="timer" id="minute"></p>
+                    <p class="timer__period"></p>
+
+                </div>
+                <div class="flex">
+                    <div class="location"></div>
+                    <button class="btn">
+                        <span class="more">More</span>
+                        <span class="less">Less</span>
+                        <div><i class="fas fa-arrow-down switch__arrow"></i></div>
+                            
+                    </button>
+                </div>
+        </div>
+
+        </section>
+        <!-- date section -->
+        <div class="date__details " id="data">
+            <!-- ::before -->
+            <div class=" details">
+                <div class="detail detail1">
+                    <p class="title">Current Timezone</p>
+                    <p class="sub__title" id="timezone"></p>
+                </div>
+                <div class="detail detail2">
+                    <p class="title">Day of the Year</p>
+                    <p class="sub__title" id="year"></p>
+                </div>
+                <div class="detail detail3">
+                    <p class="title">Day of the Week</p>
+                    <p class="sub__title" id="week"></p>
+                </div>
+                <div class="detail detail4">
+                    <p class="title">Number of the Week</p>
+                    <p class="sub__title" id="day"></p>
+                </div>
+
+
+
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+
+</html>
