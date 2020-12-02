@@ -21,7 +21,7 @@ const dataDetails = document.querySelector(".date__details");
 const timerFunction = () => {
     const date = new Date();
     let hours = date.getHours();
-    let minutes = date.getHours();
+    let minutes = date.getMinutes();
     let halfHour = hours % 12;
 
     // set hour
